@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #131313;
+}
+.header {
+    color: aliceblue;
+    background-image: url('ul1.png');
+    height: 100vh;
+    width: 99vw;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 90px;
+    text-shadow: 4px 4px 4px black;
+    
+}
+.ct {
+    font-family: 'Mali', cursive;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 244px;
+    text-shadow: 3px 3px 3px rgb(113, 113, 113);
+}
+.bott {
+    width: 90%;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    width: 100%;
+    margin: 1% 0;
+    border-radius: 12px;
+    background: linear-gradient(120deg, rgb(255, 228, 196), rgba(43, 57, 59, 0.205));
+}
+.box .image img {
+    margin: 1%;
+    border-radius: 12px;
+    width: 600px;
+}
+.box .description {
+    display: block;
+    padding: 4%;
+}
+.box .description h1 {
+    font-family: 'Poppins';
+    font-size: 200%;
+    color: whitesmoke;
+    text-shadow: 0 0 0.3em black;
+}
+.box .description p {
+    font-family: 'Playpen Sans';
+    font-size: 155%;
+    color: rgb(255, 233, 227);
+    text-shadow: 0 0 0.3em black;
+    margin-top: 6%;
+}
